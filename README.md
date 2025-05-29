@@ -6,7 +6,7 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
 
 ## Endpoint
 
----
+
 
 - `POST /api/register`
   - Deskripsi: Mendaftarkan akun baru.
@@ -25,7 +25,7 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
     }
     ```
 
----
+
 
 - `POST /api/login`
   - Deskripsi: Login user dan mendapatkan token serta data user.
@@ -52,7 +52,7 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
     }
     ```
 
----
+
 
 - `POST /api/logout`
   - Deskripsi: Logout user. (Penghapusan token dilakukan di sisi frontend)
@@ -63,7 +63,7 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
     }
     ```
 
----
+
 
 - `PUT /api/add-ending`
   - Deskripsi: Menambahkan salah satu ending ke user.
@@ -81,7 +81,7 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
     }
     ```
 
----
+
 
 - `GET /api/ending/:userId`
   - Deskripsi: Mengambil status semua ending user.
@@ -94,7 +94,7 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
     }
     ```
 
----
+
 
 - `GET /api/user/:userId`
   - Deskripsi: Mendapatkan data user berdasarkan ID.
@@ -110,8 +110,6 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
       "butterfly": 2
     }
     ```
-
----
 
 - `PUT /api/add-butterfly`
   - Deskripsi: Menambahkan 1 ke jumlah butterfly user.
@@ -129,10 +127,3 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
     ```
 
 ---
-
-## Error Response (Umum)
-
-```json
-{
-  "error": "Error message here"
-}
