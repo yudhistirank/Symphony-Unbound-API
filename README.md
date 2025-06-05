@@ -81,21 +81,6 @@ API ini digunakan untuk mengelola akun pengguna dan progres dalam game Symphony 
     }
     ```
 
-
-
-- `GET /api/ending/:userId`
-  - Deskripsi: Mengambil status semua ending user.
-  - Response:
-    ```json
-    {
-      "ending_1": true,
-      "ending_2": false,
-      "ending_3": false
-    }
-    ```
-
-
-
 - `GET /api/user/:userId`
   - Deskripsi: Mendapatkan data user berdasarkan ID.
   - Response:
